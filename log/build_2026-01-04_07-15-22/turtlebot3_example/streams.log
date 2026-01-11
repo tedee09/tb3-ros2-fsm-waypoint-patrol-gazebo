@@ -1,0 +1,22 @@
+[0.458s] Invoking command in '/home/tedee/tb3_ws/build/turtlebot3_example': CMAKE_PREFIX_PATH=/home/tedee/tb3_ws/install/turtlebot3_msgs:/home/tedee/tb3_ws/install/turtlebot3:/home/tedee/tb3_ws/install/turtlebot3_simulations:/home/tedee/tb3_ws/install/turtlebot3_bringup:/home/tedee/tb3_ws/install/turtlebot3_node:/home/tedee/tb3_ws/install/turtlebot3_navigation2:/home/tedee/tb3_ws/install/turtlebot3_fake_node:/home/tedee/tb3_ws/install/turtlebot3_manipulation_gazebo:/home/tedee/tb3_ws/install/turtlebot3_gazebo:/home/tedee/tb3_ws/install/turtlebot3_description:/home/tedee/tb3_ws/install/turtlebot3_cartographer LD_LIBRARY_PATH=/home/tedee/tb3_ws/install/turtlebot3_msgs/lib:/usr/local/webots/lib/controller:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/tedee/tb3_ws/build/turtlebot3_example/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tedee/tb3_ws/install/turtlebot3_example/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/tedee/tb3_ws/build/turtlebot3_example/build --no-deps symlink_data
+[0.635s] running develop
+[0.753s] running egg_info
+[0.753s] writing turtlebot3_example.egg-info/PKG-INFO
+[0.753s] writing dependency_links to turtlebot3_example.egg-info/dependency_links.txt
+[0.753s] writing entry points to turtlebot3_example.egg-info/entry_points.txt
+[0.753s] writing requirements to turtlebot3_example.egg-info/requires.txt
+[0.753s] writing top-level names to turtlebot3_example.egg-info/top_level.txt
+[0.755s] reading manifest file 'turtlebot3_example.egg-info/SOURCES.txt'
+[0.755s] writing manifest file 'turtlebot3_example.egg-info/SOURCES.txt'
+[0.775s] running build_ext
+[0.775s] Creating /home/tedee/tb3_ws/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3-example.egg-link (link to .)
+[0.775s] Installing turtlebot3_absolute_move script to /home/tedee/tb3_ws/install/turtlebot3_example/lib/turtlebot3_example
+[0.775s] Installing turtlebot3_interactive_marker script to /home/tedee/tb3_ws/install/turtlebot3_example/lib/turtlebot3_example
+[0.775s] Installing turtlebot3_obstacle_detection script to /home/tedee/tb3_ws/install/turtlebot3_example/lib/turtlebot3_example
+[0.775s] Installing turtlebot3_patrol_client script to /home/tedee/tb3_ws/install/turtlebot3_example/lib/turtlebot3_example
+[0.775s] Installing turtlebot3_patrol_server script to /home/tedee/tb3_ws/install/turtlebot3_example/lib/turtlebot3_example
+[0.775s] Installing turtlebot3_relative_move script to /home/tedee/tb3_ws/install/turtlebot3_example/lib/turtlebot3_example
+[0.775s] 
+[0.775s] Installed /home/tedee/tb3_ws/build/turtlebot3_example
+[0.775s] running symlink_data
+[0.796s] Invoked command in '/home/tedee/tb3_ws/build/turtlebot3_example' returned '0': CMAKE_PREFIX_PATH=/home/tedee/tb3_ws/install/turtlebot3_msgs:/home/tedee/tb3_ws/install/turtlebot3:/home/tedee/tb3_ws/install/turtlebot3_simulations:/home/tedee/tb3_ws/install/turtlebot3_bringup:/home/tedee/tb3_ws/install/turtlebot3_node:/home/tedee/tb3_ws/install/turtlebot3_navigation2:/home/tedee/tb3_ws/install/turtlebot3_fake_node:/home/tedee/tb3_ws/install/turtlebot3_manipulation_gazebo:/home/tedee/tb3_ws/install/turtlebot3_gazebo:/home/tedee/tb3_ws/install/turtlebot3_description:/home/tedee/tb3_ws/install/turtlebot3_cartographer LD_LIBRARY_PATH=/home/tedee/tb3_ws/install/turtlebot3_msgs/lib:/usr/local/webots/lib/controller:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/tedee/tb3_ws/build/turtlebot3_example/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tedee/tb3_ws/install/turtlebot3_example/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/tedee/tb3_ws/build/turtlebot3_example/build --no-deps symlink_data

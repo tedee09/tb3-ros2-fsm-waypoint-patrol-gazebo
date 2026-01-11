@@ -1,0 +1,15 @@
+running develop
+running egg_info
+writing tb3_fsm_patrol.egg-info/PKG-INFO
+writing dependency_links to tb3_fsm_patrol.egg-info/dependency_links.txt
+writing entry points to tb3_fsm_patrol.egg-info/entry_points.txt
+writing requirements to tb3_fsm_patrol.egg-info/requires.txt
+writing top-level names to tb3_fsm_patrol.egg-info/top_level.txt
+reading manifest file 'tb3_fsm_patrol.egg-info/SOURCES.txt'
+writing manifest file 'tb3_fsm_patrol.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/tedee/tb3_ws/install/tb3_fsm_patrol/lib/python3.10/site-packages/tb3-fsm-patrol.egg-link (link to .)
+Installing fsm_patrol script to /home/tedee/tb3_ws/install/tb3_fsm_patrol/lib/tb3_fsm_patrol
+
+Installed /home/tedee/tb3_ws/build/tb3_fsm_patrol
+running symlink_data

@@ -1,0 +1,26 @@
+[0.469s] Invoking command in '/home/tedee/tb3_ws/src/turtlebot3/turtlebot3_example': CMAKE_PREFIX_PATH=/home/tedee/tb3_ws/install/turtlebot3_msgs:/home/tedee/tb3_ws/install/turtlebot3:/home/tedee/tb3_ws/install/turtlebot3_simulations:/home/tedee/tb3_ws/install/turtlebot3_bringup:/home/tedee/tb3_ws/install/turtlebot3_node:/home/tedee/tb3_ws/install/turtlebot3_navigation2:/home/tedee/tb3_ws/install/turtlebot3_fake_node:/home/tedee/tb3_ws/install/turtlebot3_manipulation_gazebo:/home/tedee/tb3_ws/install/turtlebot3_gazebo:/home/tedee/tb3_ws/install/turtlebot3_description:/home/tedee/tb3_ws/install/turtlebot3_cartographer LD_LIBRARY_PATH=/home/tedee/tb3_ws/install/turtlebot3_msgs/lib:/usr/local/webots/lib/controller:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/tedee/tb3_ws/build/turtlebot3_example/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tedee/tb3_ws/install/turtlebot3_example/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/turtlebot3_example build --build-base /home/tedee/tb3_ws/build/turtlebot3_example/build install --record /home/tedee/tb3_ws/build/turtlebot3_example/install.log --single-version-externally-managed install_data
+[0.633s] running egg_info
+[0.633s] writing ../../../build/turtlebot3_example/turtlebot3_example.egg-info/PKG-INFO
+[0.634s] writing dependency_links to ../../../build/turtlebot3_example/turtlebot3_example.egg-info/dependency_links.txt
+[0.634s] writing entry points to ../../../build/turtlebot3_example/turtlebot3_example.egg-info/entry_points.txt
+[0.634s] writing requirements to ../../../build/turtlebot3_example/turtlebot3_example.egg-info/requires.txt
+[0.634s] writing top-level names to ../../../build/turtlebot3_example/turtlebot3_example.egg-info/top_level.txt
+[0.635s] reading manifest file '../../../build/turtlebot3_example/turtlebot3_example.egg-info/SOURCES.txt'
+[0.636s] writing manifest file '../../../build/turtlebot3_example/turtlebot3_example.egg-info/SOURCES.txt'
+[0.636s] running build
+[0.636s] running build_py
+[0.637s] running install
+[0.637s] running install_lib
+[0.638s] running install_data
+[0.638s] running install_egg_info
+[0.639s] removing '/home/tedee/tb3_ws/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example-2.3.6-py3.10.egg-info' (and everything under it)
+[0.639s] Copying ../../../build/turtlebot3_example/turtlebot3_example.egg-info to /home/tedee/tb3_ws/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example-2.3.6-py3.10.egg-info
+[0.640s] running install_scripts
+[0.653s] Installing turtlebot3_absolute_move script to /home/tedee/tb3_ws/install/turtlebot3_example/lib/turtlebot3_example
+[0.653s] Installing turtlebot3_interactive_marker script to /home/tedee/tb3_ws/install/turtlebot3_example/lib/turtlebot3_example
+[0.653s] Installing turtlebot3_obstacle_detection script to /home/tedee/tb3_ws/install/turtlebot3_example/lib/turtlebot3_example
+[0.654s] Installing turtlebot3_patrol_client script to /home/tedee/tb3_ws/install/turtlebot3_example/lib/turtlebot3_example
+[0.654s] Installing turtlebot3_patrol_server script to /home/tedee/tb3_ws/install/turtlebot3_example/lib/turtlebot3_example
+[0.654s] Installing turtlebot3_relative_move script to /home/tedee/tb3_ws/install/turtlebot3_example/lib/turtlebot3_example
+[0.654s] writing list of installed files to '/home/tedee/tb3_ws/build/turtlebot3_example/install.log'
+[0.671s] Invoked command in '/home/tedee/tb3_ws/src/turtlebot3/turtlebot3_example' returned '0': CMAKE_PREFIX_PATH=/home/tedee/tb3_ws/install/turtlebot3_msgs:/home/tedee/tb3_ws/install/turtlebot3:/home/tedee/tb3_ws/install/turtlebot3_simulations:/home/tedee/tb3_ws/install/turtlebot3_bringup:/home/tedee/tb3_ws/install/turtlebot3_node:/home/tedee/tb3_ws/install/turtlebot3_navigation2:/home/tedee/tb3_ws/install/turtlebot3_fake_node:/home/tedee/tb3_ws/install/turtlebot3_manipulation_gazebo:/home/tedee/tb3_ws/install/turtlebot3_gazebo:/home/tedee/tb3_ws/install/turtlebot3_description:/home/tedee/tb3_ws/install/turtlebot3_cartographer LD_LIBRARY_PATH=/home/tedee/tb3_ws/install/turtlebot3_msgs/lib:/usr/local/webots/lib/controller:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/tedee/tb3_ws/build/turtlebot3_example/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tedee/tb3_ws/install/turtlebot3_example/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/turtlebot3_example build --build-base /home/tedee/tb3_ws/build/turtlebot3_example/build install --record /home/tedee/tb3_ws/build/turtlebot3_example/install.log --single-version-externally-managed install_data

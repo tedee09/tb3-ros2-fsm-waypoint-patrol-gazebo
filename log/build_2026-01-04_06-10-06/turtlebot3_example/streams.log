@@ -1,0 +1,29 @@
+[0.975s] Invoking command in '/home/tedee/tb3_ws/build/turtlebot3_example': AMENT_PREFIX_PATH=/home/tedee/tb3_ws/install/turtlebot3_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tedee/tb3_ws/install/turtlebot3_msgs LD_LIBRARY_PATH=/home/tedee/tb3_ws/install/turtlebot3_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/tedee/tb3_ws/build/turtlebot3_example/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tedee/tb3_ws/install/turtlebot3_example/lib/python3.10/site-packages:/home/tedee/tb3_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/tedee/tb3_ws/build/turtlebot3_example/build --no-deps symlink_data
+[1.395s] running develop
+[1.560s] running egg_info
+[1.560s] creating turtlebot3_example.egg-info
+[1.560s] writing turtlebot3_example.egg-info/PKG-INFO
+[1.560s] writing dependency_links to turtlebot3_example.egg-info/dependency_links.txt
+[1.561s] writing entry points to turtlebot3_example.egg-info/entry_points.txt
+[1.561s] writing requirements to turtlebot3_example.egg-info/requires.txt
+[1.561s] writing top-level names to turtlebot3_example.egg-info/top_level.txt
+[1.561s] writing manifest file 'turtlebot3_example.egg-info/SOURCES.txt'
+[1.563s] reading manifest file 'turtlebot3_example.egg-info/SOURCES.txt'
+[1.563s] writing manifest file 'turtlebot3_example.egg-info/SOURCES.txt'
+[1.591s] running build_ext
+[1.591s] Creating /home/tedee/tb3_ws/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3-example.egg-link (link to .)
+[1.592s] Installing turtlebot3_absolute_move script to /home/tedee/tb3_ws/install/turtlebot3_example/lib/turtlebot3_example
+[1.592s] Installing turtlebot3_interactive_marker script to /home/tedee/tb3_ws/install/turtlebot3_example/lib/turtlebot3_example
+[1.592s] Installing turtlebot3_obstacle_detection script to /home/tedee/tb3_ws/install/turtlebot3_example/lib/turtlebot3_example
+[1.592s] Installing turtlebot3_patrol_client script to /home/tedee/tb3_ws/install/turtlebot3_example/lib/turtlebot3_example
+[1.593s] Installing turtlebot3_patrol_server script to /home/tedee/tb3_ws/install/turtlebot3_example/lib/turtlebot3_example
+[1.593s] Installing turtlebot3_relative_move script to /home/tedee/tb3_ws/install/turtlebot3_example/lib/turtlebot3_example
+[1.593s] 
+[1.593s] Installed /home/tedee/tb3_ws/build/turtlebot3_example
+[1.593s] running symlink_data
+[1.593s] creating /home/tedee/tb3_ws/install/turtlebot3_example/share/ament_index
+[1.593s] creating /home/tedee/tb3_ws/install/turtlebot3_example/share/ament_index/resource_index
+[1.593s] creating /home/tedee/tb3_ws/install/turtlebot3_example/share/ament_index/resource_index/packages
+[1.593s] symbolically linking /home/tedee/tb3_ws/build/turtlebot3_example/resource/turtlebot3_example -> /home/tedee/tb3_ws/install/turtlebot3_example/share/ament_index/resource_index/packages
+[1.593s] symbolically linking /home/tedee/tb3_ws/build/turtlebot3_example/package.xml -> /home/tedee/tb3_ws/install/turtlebot3_example/share/turtlebot3_example
+[1.629s] Invoked command in '/home/tedee/tb3_ws/build/turtlebot3_example' returned '0': AMENT_PREFIX_PATH=/home/tedee/tb3_ws/install/turtlebot3_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tedee/tb3_ws/install/turtlebot3_msgs LD_LIBRARY_PATH=/home/tedee/tb3_ws/install/turtlebot3_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/tedee/tb3_ws/build/turtlebot3_example/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tedee/tb3_ws/install/turtlebot3_example/lib/python3.10/site-packages:/home/tedee/tb3_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/tedee/tb3_ws/build/turtlebot3_example/build --no-deps symlink_data

@@ -1,0 +1,19 @@
+[0.702s] Invoking command in '/home/tedee/tb3_ws/build/tb3_fsm_patrol': PYTHONPATH=/home/tedee/tb3_ws/build/tb3_fsm_patrol/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tedee/tb3_ws/install/tb3_fsm_patrol/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/tedee/tb3_ws/build/tb3_fsm_patrol/build --no-deps symlink_data
+[0.878s] running develop
+[0.994s] running egg_info
+[0.994s] writing tb3_fsm_patrol.egg-info/PKG-INFO
+[0.994s] writing dependency_links to tb3_fsm_patrol.egg-info/dependency_links.txt
+[0.994s] writing entry points to tb3_fsm_patrol.egg-info/entry_points.txt
+[0.994s] writing requirements to tb3_fsm_patrol.egg-info/requires.txt
+[0.994s] writing top-level names to tb3_fsm_patrol.egg-info/top_level.txt
+[0.996s] reading manifest file 'tb3_fsm_patrol.egg-info/SOURCES.txt'
+[0.996s] writing manifest file 'tb3_fsm_patrol.egg-info/SOURCES.txt'
+[1.014s] running build_ext
+[1.015s] Creating /home/tedee/tb3_ws/install/tb3_fsm_patrol/lib/python3.10/site-packages/tb3-fsm-patrol.egg-link (link to .)
+[1.015s] Installing fsm_patrol script to /home/tedee/tb3_ws/install/tb3_fsm_patrol/lib/tb3_fsm_patrol
+[1.015s] 
+[1.015s] Installed /home/tedee/tb3_ws/build/tb3_fsm_patrol
+[1.015s] running symlink_data
+[1.015s] creating /home/tedee/tb3_ws/install/tb3_fsm_patrol/share/tb3_fsm_patrol/launch
+[1.015s] symbolically linking /home/tedee/tb3_ws/build/tb3_fsm_patrol/launch/tb3_world_fsm.launch.py -> /home/tedee/tb3_ws/install/tb3_fsm_patrol/share/tb3_fsm_patrol/launch
+[1.037s] Invoked command in '/home/tedee/tb3_ws/build/tb3_fsm_patrol' returned '0': PYTHONPATH=/home/tedee/tb3_ws/build/tb3_fsm_patrol/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tedee/tb3_ws/install/tb3_fsm_patrol/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/tedee/tb3_ws/build/tb3_fsm_patrol/build --no-deps symlink_data

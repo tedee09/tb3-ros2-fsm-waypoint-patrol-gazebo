@@ -1,0 +1,4 @@
+[console_scripts]
+fsm_patrol = tb3_fsm_patrol.fsm_patrol:main
+pose_monitor = tb3_fsm_patrol.pose_monitor:main
+

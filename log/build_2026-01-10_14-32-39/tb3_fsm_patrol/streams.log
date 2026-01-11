@@ -1,0 +1,28 @@
+[0.711s] Invoking command in '/home/tedee/tb3_ws/src/tb3_fsm_patrol': PYTHONPATH=/home/tedee/tb3_ws/build/tb3_fsm_patrol/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tedee/tb3_ws/install/tb3_fsm_patrol/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/tb3_fsm_patrol build --build-base /home/tedee/tb3_ws/build/tb3_fsm_patrol/build install --record /home/tedee/tb3_ws/build/tb3_fsm_patrol/install.log --single-version-externally-managed install_data
+[0.887s] running egg_info
+[0.887s] writing ../../build/tb3_fsm_patrol/tb3_fsm_patrol.egg-info/PKG-INFO
+[0.887s] writing dependency_links to ../../build/tb3_fsm_patrol/tb3_fsm_patrol.egg-info/dependency_links.txt
+[0.887s] writing entry points to ../../build/tb3_fsm_patrol/tb3_fsm_patrol.egg-info/entry_points.txt
+[0.887s] writing requirements to ../../build/tb3_fsm_patrol/tb3_fsm_patrol.egg-info/requires.txt
+[0.887s] writing top-level names to ../../build/tb3_fsm_patrol/tb3_fsm_patrol.egg-info/top_level.txt
+[0.889s] reading manifest file '../../build/tb3_fsm_patrol/tb3_fsm_patrol.egg-info/SOURCES.txt'
+[0.889s] writing manifest file '../../build/tb3_fsm_patrol/tb3_fsm_patrol.egg-info/SOURCES.txt'
+[0.889s] running build
+[0.889s] running build_py
+[0.889s] copying tb3_fsm_patrol/pose_monitor.py -> /home/tedee/tb3_ws/build/tb3_fsm_patrol/build/lib/tb3_fsm_patrol
+[0.889s] copying tb3_fsm_patrol/fsm_patrol.py -> /home/tedee/tb3_ws/build/tb3_fsm_patrol/build/lib/tb3_fsm_patrol
+[0.889s] running install
+[0.890s] running install_lib
+[0.890s] copying /home/tedee/tb3_ws/build/tb3_fsm_patrol/build/lib/tb3_fsm_patrol/pose_monitor.py -> /home/tedee/tb3_ws/install/tb3_fsm_patrol/lib/python3.10/site-packages/tb3_fsm_patrol
+[0.890s] copying /home/tedee/tb3_ws/build/tb3_fsm_patrol/build/lib/tb3_fsm_patrol/fsm_patrol.py -> /home/tedee/tb3_ws/install/tb3_fsm_patrol/lib/python3.10/site-packages/tb3_fsm_patrol
+[0.890s] byte-compiling /home/tedee/tb3_ws/install/tb3_fsm_patrol/lib/python3.10/site-packages/tb3_fsm_patrol/pose_monitor.py to pose_monitor.cpython-310.pyc
+[0.891s] byte-compiling /home/tedee/tb3_ws/install/tb3_fsm_patrol/lib/python3.10/site-packages/tb3_fsm_patrol/fsm_patrol.py to fsm_patrol.cpython-310.pyc
+[0.892s] running install_data
+[0.892s] running install_egg_info
+[0.893s] removing '/home/tedee/tb3_ws/install/tb3_fsm_patrol/lib/python3.10/site-packages/tb3_fsm_patrol-0.0.0-py3.10.egg-info' (and everything under it)
+[0.894s] Copying ../../build/tb3_fsm_patrol/tb3_fsm_patrol.egg-info to /home/tedee/tb3_ws/install/tb3_fsm_patrol/lib/python3.10/site-packages/tb3_fsm_patrol-0.0.0-py3.10.egg-info
+[0.894s] running install_scripts
+[0.907s] Installing fsm_patrol script to /home/tedee/tb3_ws/install/tb3_fsm_patrol/lib/tb3_fsm_patrol
+[0.907s] Installing pose_monitor script to /home/tedee/tb3_ws/install/tb3_fsm_patrol/lib/tb3_fsm_patrol
+[0.907s] writing list of installed files to '/home/tedee/tb3_ws/build/tb3_fsm_patrol/install.log'
+[0.924s] Invoked command in '/home/tedee/tb3_ws/src/tb3_fsm_patrol' returned '0': PYTHONPATH=/home/tedee/tb3_ws/build/tb3_fsm_patrol/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tedee/tb3_ws/install/tb3_fsm_patrol/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/tb3_fsm_patrol build --build-base /home/tedee/tb3_ws/build/tb3_fsm_patrol/build install --record /home/tedee/tb3_ws/build/tb3_fsm_patrol/install.log --single-version-externally-managed install_data

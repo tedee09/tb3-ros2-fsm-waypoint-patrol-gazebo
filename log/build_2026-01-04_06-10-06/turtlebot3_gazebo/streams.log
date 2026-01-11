@@ -1,0 +1,293 @@
+[0.022s] Invoking command in '/home/tedee/tb3_ws/build/turtlebot3_gazebo': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/tedee/tb3_ws/src/turtlebot3_simulations/turtlebot3_gazebo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/tedee/tb3_ws/install/turtlebot3_gazebo
+[0.277s] -- The C compiler identification is GNU 11.4.0
+[0.711s] -- The CXX compiler identification is GNU 11.4.0
+[0.722s] -- Detecting C compiler ABI info
+[0.839s] -- Detecting C compiler ABI info - done
+[0.844s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.845s] -- Detecting C compile features
+[0.845s] -- Detecting C compile features - done
+[0.847s] -- Detecting CXX compiler ABI info
+[0.939s] -- Detecting CXX compiler ABI info - done
+[0.945s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.945s] -- Detecting CXX compile features
+[0.945s] -- Detecting CXX compile features - done
+[0.946s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.066s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.130s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.186s] [33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[1.186s]   The package name passed to `find_package_handle_standard_args` (PkgConfig)
+[1.186s]   does not match the name of the calling package (gazebo).  This can lead to
+[1.186s]   problems in calling code that expects `find_package` result variables
+[1.186s]   (e.g., `_FOUND`) to follow a certain pattern.
+[1.186s] Call Stack (most recent call first):
+[1.186s]   /usr/share/cmake-3.22/Modules/FindPkgConfig.cmake:99 (find_package_handle_standard_args)
+[1.186s]   /usr/lib/x86_64-linux-gnu/cmake/gazebo/gazebo-config.cmake:72 (include)
+[1.186s]   CMakeLists.txt:23 (find_package)
+[1.187s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.187s] [0m
+[1.187s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[1.191s] -- Checking for module 'bullet>=2.82'
+[1.202s] --   Found bullet, version 3.05
+[1.348s] -- Found fcl: /usr/include (found suitable version "0.7.0", minimum required is "0.5.0") 
+[1.392s] -- Found assimp: /usr/include (found version "5.2.0") 
+[1.440s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[1.639s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time 
+[1.669s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[1.676s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.694s] -- Searching for dependencies of ignition-math6
+[1.697s] -- Looking for OGRE...
+[1.698s] -- OGRE_PREFIX_WATCH changed.
+[1.701s] -- Checking for module 'OGRE'
+[1.710s] --   Found OGRE, version 1.9.0
+[1.736s] -- Found Ogre Ghadamon (1.9.0)
+[1.744s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[1.751s] -- Looking for OGRE_Paging...
+[1.755s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[1.755s] -- Looking for OGRE_Terrain...
+[1.759s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[1.759s] -- Looking for OGRE_Property...
+[1.763s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[1.763s] -- Looking for OGRE_RTShaderSystem...
+[1.767s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[1.767s] -- Looking for OGRE_Volume...
+[1.771s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[1.771s] -- Looking for OGRE_Overlay...
+[1.774s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[1.847s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.849s] -- Looking for ignition-transport8 -- found version 8.2.1
+[1.849s] -- Searching for dependencies of ignition-transport8
+[1.862s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[1.872s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[1.876s] -- Checking for module 'libzmq >= 4'
+[1.888s] --   Found libzmq , version 4.3.4
+[1.915s] -- Found ZeroMQ: TRUE (Required is at least version "4") 
+[1.921s] -- Checking for module 'uuid'
+[1.930s] --   Found uuid, version 2.37.2
+[1.952s] -- Found UUID: TRUE  
+[1.955s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[1.955s] -- Searching for dependencies of ignition-msgs5
+[1.968s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.971s] -- Checking for module 'tinyxml2'
+[1.980s] --   Found tinyxml2, version 9.0.0
+[2.006s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[2.008s] -- Looking for ignition-common3 -- found version 3.14.0
+[2.009s] -- Searching for dependencies of ignition-common3
+[2.009s] -- Looking for dlfcn.h - found
+[2.010s] -- Looking for libdl - found
+[2.011s] -- Found DL: TRUE  
+[2.021s] -- Found tinyobjloader: /usr/lib/x86_64-linux-gnu/cmake/tinyobjloader/tinyobjloader-config.cmake (found version "2.0.0") 
+[2.021s] -- Searching for <ignition-common3> component [graphics]
+[2.023s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[2.024s] -- Searching for dependencies of ignition-common3-graphics
+[2.024s] -- Looking for ignition-math6 -- found version 6.15.1
+[2.027s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[2.027s] -- Searching for dependencies of ignition-fuel_tools4
+[2.083s] -- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  
+[2.090s] -- Checking for module 'jsoncpp'
+[2.100s] --   Found jsoncpp, version 1.9.5
+[2.123s] -- Found JSONCPP: TRUE  
+[2.129s] -- Checking for module 'libzip'
+[2.139s] --   Found libzip, version 1.7.3
+[2.162s] -- Found ZIP: TRUE  
+[2.163s] -- Looking for ignition-common3 -- found version 3.14.0
+[2.163s] -- Looking for ignition-math6 -- found version 6.15.1
+[2.163s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[2.168s] -- Found gazebo_ros_pkgs: 3.9.0 (/opt/ros/humble/share/gazebo_ros_pkgs/cmake)
+[2.169s] -- Found geometry_msgs: 4.8.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[2.186s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.188s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.193s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.200s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.209s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.232s] -- Found nav_msgs: 4.8.0 (/opt/ros/humble/share/nav_msgs/cmake)
+[2.251s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[2.293s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.297s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.396s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.420s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.454s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.464s] -- Found Threads: TRUE  
+[2.521s] -- Found sensor_msgs: 4.8.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[2.539s] -- Found tf2: 0.25.12 (/opt/ros/humble/share/tf2/cmake)
+[2.591s] -- Configuring done
+[2.619s] -- Generating done
+[2.625s] -- Build files have been written to: /home/tedee/tb3_ws/build/turtlebot3_gazebo
+[2.634s] Invoked command in '/home/tedee/tb3_ws/build/turtlebot3_gazebo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/tedee/tb3_ws/src/turtlebot3_simulations/turtlebot3_gazebo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/tedee/tb3_ws/install/turtlebot3_gazebo
+[2.636s] Invoking command in '/home/tedee/tb3_ws/build/turtlebot3_gazebo': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/tedee/tb3_ws/build/turtlebot3_gazebo -- -j20 -l20
+[2.673s] [  8%] [32mBuilding CXX object CMakeFiles/traffic_light_plugin.dir/src/traffic_light_plugin.cpp.o[0m
+[2.673s] [ 16%] [32mBuilding CXX object CMakeFiles/turtlebot3_drive.dir/src/turtlebot3_drive.cpp.o[0m
+[2.674s] [ 25%] [32mBuilding CXX object CMakeFiles/obstacles.dir/src/obstacles.cpp.o[0m
+[2.676s] [ 33%] [32mBuilding CXX object CMakeFiles/obstacle2.dir/src/obstacle2.cpp.o[0m
+[2.677s] [ 41%] [32mBuilding CXX object CMakeFiles/traffic_bar_plugin.dir/src/traffic_bar_plugin.cpp.o[0m
+[2.678s] [ 50%] [32mBuilding CXX object CMakeFiles/obstacle1.dir/src/obstacle1.cpp.o[0m
+[14.642s] [ 58%] [32m[1mLinking CXX executable turtlebot3_drive[0m
+[15.656s] [ 58%] Built target turtlebot3_drive
+[15.758s] [ 66%] [32m[1mLinking CXX shared library libobstacle2.so[0m
+[15.806s] [ 75%] [32m[1mLinking CXX shared library libobstacles.so[0m
+[16.011s] [ 75%] Built target obstacle2
+[16.118s] [ 75%] Built target obstacles
+[17.037s] [ 83%] [32m[1mLinking CXX shared library libtraffic_light_plugin.so[0m
+[17.261s] [ 83%] Built target traffic_light_plugin
+[17.344s] [ 91%] [32m[1mLinking CXX shared library libobstacle1.so[0m
+[17.384s] [100%] [32m[1mLinking CXX shared library libtraffic_bar_plugin.so[0m
+[17.514s] [100%] Built target obstacle1
+[17.553s] [100%] Built target traffic_bar_plugin
+[17.563s] Invoked command in '/home/tedee/tb3_ws/build/turtlebot3_gazebo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/tedee/tb3_ws/build/turtlebot3_gazebo -- -j20 -l20
+[17.564s] Invoking command in '/home/tedee/tb3_ws/build/turtlebot3_gazebo': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/tedee/tb3_ws/build/turtlebot3_gazebo
+[17.570s] -- Install configuration: ""
+[17.570s] -- Execute custom install script
+[17.570s] -- Symlinking: /home/tedee/tb3_ws/install/turtlebot3_gazebo/lib/turtlebot3_gazebo/turtlebot3_drive
+[17.579s] -- Symlinking: /home/tedee/tb3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/empty_world.launch.py
+[17.586s] -- Symlinking: /home/tedee/tb3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/multi_robot.launch.py
+[17.591s] -- Symlinking: /home/tedee/tb3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/multi_spawn_turtlebot3.launch.py
+[17.599s] -- Symlinking: /home/tedee/tb3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/robot_state_publisher.launch.py
+[17.606s] -- Symlinking: /home/tedee/tb3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/spawn_turtlebot3.launch.py
+[17.612s] -- Symlinking: /home/tedee/tb3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_autorace_2020.launch.py
+[17.620s] -- Symlinking: /home/tedee/tb3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_dqn_stage1.launch.py
+[17.626s] -- Symlinking: /home/tedee/tb3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_dqn_stage2.launch.py
+[17.632s] -- Symlinking: /home/tedee/tb3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_dqn_stage3.launch.py
+[17.640s] -- Symlinking: /home/tedee/tb3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_dqn_stage4.launch.py
+[17.646s] -- Symlinking: /home/tedee/tb3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_house.launch.py
+[17.652s] -- Symlinking: /home/tedee/tb3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_world.launch.py
+[17.661s] -- Symlinking: /home/tedee/tb3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/checker/materials/checker.png
+[17.668s] -- Symlinking: /home/tedee/tb3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/checker/materials/scripts/checker.material
+[17.676s] -- Symlinking: /home/tedee/tb3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/checker/materials/textures/checker.png
+[17.684s] -- Symlinking: /home/tedee/tb3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/checker/model.config
+[17.690s] -- Symlinking: /home/tedee/tb3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/checker/model.sdf
+[17.697s] -- Symlinking: /home/tedee/tb3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/course/materials/scripts/course.material
+[17.704s] -- Symlinking: /home/tedee/tb3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/course/materials/textures/course.png
+[17.710s] -- Symlinking: /home/tedee/tb3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/course/model.config
+[17.716s] -- Symlinking: /home/tedee/tb3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/course/model.sdf
+[17.723s] -- Symlinking: /home/tedee/tb3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_bar/materials/scripts/traffic_bar.material
+[17.729s] -- Symlinking: /home/tedee/tb3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_bar/materials/textures/traffic_bar.png
+[17.735s] -- Symlinking: /home/tedee/tb3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_bar/model.config
+[17.741s] -- Symlinking: /home/tedee/tb3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_bar/model.sdf
+[17.747s] -- Symlinking: /home/tedee/tb3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_construction/materials/scripts/traffic_construction.material
+[17.755s] -- Symlinking: /home/tedee/tb3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_construction/materials/textures/traffic_construction.png
+[17.762s] -- Symlinking: /home/tedee/tb3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_construction/model.config
+[17.769s] -- Symlinking: /home/tedee/tb3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_construction/model.sdf
+[17.777s] -- Symlinking: /home/tedee/tb3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_intersection/materials/scripts/traffic_intersection.material
+[17.784s] -- Symlinking: /home/tedee/tb3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_intersection/materials/textures/traffic_intersection.png
+[17.789s] -- Symlinking: /home/tedee/tb3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_intersection/model.config
+[17.797s] -- Symlinking: /home/tedee/tb3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_intersection/model.sdf
+[17.805s] -- Symlinking: /home/tedee/tb3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_left/materials/scripts/traffic_is_left.material
+[17.813s] -- Symlinking: /home/tedee/tb3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_left/materials/textures/traffic_left.png
+[17.820s] -- Symlinking: /home/tedee/tb3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_left/model.config
+[17.825s] -- Symlinking: /home/tedee/tb3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_left/model.sdf
+[17.832s] -- Symlinking: /home/tedee/tb3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_light/materials/scripts/traffic_light.material
+[17.839s] -- Symlinking: /home/tedee/tb3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_light/materials/textures/traffic_light.png
+[17.845s] -- Symlinking: /home/tedee/tb3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_light/materials/textures/traffic_light_green.png
+[17.851s] -- Symlinking: /home/tedee/tb3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_light/materials/textures/traffic_light_red.png
+[17.859s] -- Symlinking: /home/tedee/tb3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_light/materials/textures/traffic_light_yellow.png
+[17.866s] -- Symlinking: /home/tedee/tb3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_light/model.config
+[17.873s] -- Symlinking: /home/tedee/tb3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_light/model.sdf
+[17.879s] -- Symlinking: /home/tedee/tb3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_noentry/materials/scripts/traffic_noentry.material
+[17.886s] -- Symlinking: /home/tedee/tb3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_noentry/materials/textures/traffic_noentry.png
+[17.892s] -- Symlinking: /home/tedee/tb3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_noentry/model.config
+[17.899s] -- Symlinking: /home/tedee/tb3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_noentry/model.sdf
+[17.907s] -- Symlinking: /home/tedee/tb3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_parking/materials/scripts/traffic_parking.material
+[17.914s] -- Symlinking: /home/tedee/tb3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_parking/materials/textures/traffic_parking.png
+[17.922s] -- Symlinking: /home/tedee/tb3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_parking/model.config
+[17.929s] -- Symlinking: /home/tedee/tb3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_parking/model.sdf
+[17.936s] -- Symlinking: /home/tedee/tb3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_pl_left/materials/scripts/traffic_pl_left.material
+[17.943s] -- Symlinking: /home/tedee/tb3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_pl_left/materials/textures/traffic_pl_left.png
+[17.949s] -- Symlinking: /home/tedee/tb3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_pl_left/model.config
+[17.954s] -- Symlinking: /home/tedee/tb3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_pl_left/model.sdf
+[17.961s] -- Symlinking: /home/tedee/tb3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_right/materials/scripts/traffic_right.material
+[17.967s] -- Symlinking: /home/tedee/tb3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_right/materials/textures/traffic_right.png
+[17.974s] -- Symlinking: /home/tedee/tb3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_right/model.config
+[17.980s] -- Symlinking: /home/tedee/tb3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_right/model.sdf
+[17.987s] -- Symlinking: /home/tedee/tb3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_stop/materials/scripts/traffic_stop.material
+[17.993s] -- Symlinking: /home/tedee/tb3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_stop/materials/textures/traffic_stop.png
+[17.999s] -- Symlinking: /home/tedee/tb3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_stop/model.config
+[18.006s] -- Symlinking: /home/tedee/tb3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_stop/model.sdf
+[18.013s] -- Symlinking: /home/tedee/tb3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_tunnel/materials/scripts/tunnel.material
+[18.019s] -- Symlinking: /home/tedee/tb3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_tunnel/materials/textures/tunnel.png
+[18.027s] -- Symlinking: /home/tedee/tb3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_tunnel/model.config
+[18.034s] -- Symlinking: /home/tedee/tb3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_tunnel/model.sdf
+[18.039s] -- Symlinking: /home/tedee/tb3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger/model-1_4.sdf
+[18.046s] -- Symlinking: /home/tedee/tb3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger/model.config
+[18.054s] -- Symlinking: /home/tedee/tb3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger/model.sdf
+[18.059s] -- Symlinking: /home/tedee/tb3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger_cam/model-1_4.sdf
+[18.067s] -- Symlinking: /home/tedee/tb3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger_cam/model.config
+[18.073s] -- Symlinking: /home/tedee/tb3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger_cam/model.sdf
+[18.080s] -- Symlinking: /home/tedee/tb3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/bases/burger_base.stl
+[18.087s] -- Symlinking: /home/tedee/tb3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/bases/waffle_base.stl
+[18.094s] -- Symlinking: /home/tedee/tb3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/bases/waffle_pi_base.stl
+[18.101s] -- Symlinking: /home/tedee/tb3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/burger_base.dae
+[18.107s] -- Symlinking: /home/tedee/tb3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/lds.dae
+[18.113s] -- Symlinking: /home/tedee/tb3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/r200.dae
+[18.119s] -- Symlinking: /home/tedee/tb3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/sensors/astra.dae
+[18.125s] -- Symlinking: /home/tedee/tb3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/sensors/astra.jpg
+[18.133s] -- Symlinking: /home/tedee/tb3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/sensors/lds.stl
+[18.139s] -- Symlinking: /home/tedee/tb3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/sensors/r200.dae
+[18.146s] -- Symlinking: /home/tedee/tb3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/sensors/r200.jpg
+[18.151s] -- Symlinking: /home/tedee/tb3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/tire.dae
+[18.158s] -- Symlinking: /home/tedee/tb3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/waffle_base.dae
+[18.166s] -- Symlinking: /home/tedee/tb3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/waffle_pi_base.dae
+[18.172s] -- Symlinking: /home/tedee/tb3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/wheels/left_tire.stl
+[18.178s] -- Symlinking: /home/tedee/tb3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/wheels/right_tire.stl
+[18.184s] -- Symlinking: /home/tedee/tb3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/model.config
+[18.192s] -- Symlinking: /home/tedee/tb3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/goal_box/model.config
+[18.198s] -- Symlinking: /home/tedee/tb3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/goal_box/model.sdf
+[18.204s] -- Symlinking: /home/tedee/tb3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/inner_walls/model.config
+[18.212s] -- Symlinking: /home/tedee/tb3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/inner_walls/model.sdf
+[18.218s] -- Symlinking: /home/tedee/tb3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/model.config
+[18.225s] -- Symlinking: /home/tedee/tb3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/model.sdf
+[18.230s] -- Symlinking: /home/tedee/tb3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle1/model.config
+[18.236s] -- Symlinking: /home/tedee/tb3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle1/model.sdf
+[18.242s] -- Symlinking: /home/tedee/tb3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle2/model.config
+[18.247s] -- Symlinking: /home/tedee/tb3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle2/model.sdf
+[18.255s] -- Symlinking: /home/tedee/tb3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacles/model.config
+[18.261s] -- Symlinking: /home/tedee/tb3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacles/model.sdf
+[18.269s] -- Symlinking: /home/tedee/tb3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_house/model.config
+[18.276s] -- Symlinking: /home/tedee/tb3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_house/model.sdf
+[18.282s] -- Symlinking: /home/tedee/tb3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle/model-1_4.sdf
+[18.288s] -- Symlinking: /home/tedee/tb3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle/model.config
+[18.296s] -- Symlinking: /home/tedee/tb3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle/model.sdf
+[18.302s] -- Symlinking: /home/tedee/tb3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle_pi/model-1_4_.sdf
+[18.310s] -- Symlinking: /home/tedee/tb3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle_pi/model.config
+[18.316s] -- Symlinking: /home/tedee/tb3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle_pi/model.sdf
+[18.323s] -- Symlinking: /home/tedee/tb3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/meshes/hexagon.dae
+[18.331s] -- Symlinking: /home/tedee/tb3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/meshes/wall.dae
+[18.337s] -- Symlinking: /home/tedee/tb3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/model-1_4.sdf
+[18.344s] -- Symlinking: /home/tedee/tb3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/model.config
+[18.351s] -- Symlinking: /home/tedee/tb3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/model.sdf
+[18.356s] -- Symlinking: /home/tedee/tb3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//rviz/tb3_gazebo.rviz
+[18.363s] -- Symlinking: /home/tedee/tb3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//urdf/common_properties.urdf
+[18.370s] -- Symlinking: /home/tedee/tb3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//urdf/turtlebot3_burger.urdf
+[18.378s] -- Symlinking: /home/tedee/tb3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//urdf/turtlebot3_burger_cam.urdf
+[18.384s] -- Symlinking: /home/tedee/tb3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//urdf/turtlebot3_waffle.urdf
+[18.389s] -- Symlinking: /home/tedee/tb3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//urdf/turtlebot3_waffle_pi.urdf
+[18.397s] -- Symlinking: /home/tedee/tb3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/empty_world.world
+[18.404s] -- Symlinking: /home/tedee/tb3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_autorace_2020.world
+[18.411s] -- Symlinking: /home/tedee/tb3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage1.world
+[18.417s] -- Symlinking: /home/tedee/tb3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage2.world
+[18.422s] -- Symlinking: /home/tedee/tb3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage3.world
+[18.430s] -- Symlinking: /home/tedee/tb3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage4.world
+[18.436s] -- Symlinking: /home/tedee/tb3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_house.world
+[18.442s] -- Symlinking: /home/tedee/tb3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_world.world
+[18.450s] -- Symlinking: /home/tedee/tb3_ws/install/turtlebot3_gazebo/include//turtlebot3_gazebo/obstacle1.hpp
+[18.457s] -- Symlinking: /home/tedee/tb3_ws/install/turtlebot3_gazebo/include//turtlebot3_gazebo/obstacle2.hpp
+[18.464s] -- Symlinking: /home/tedee/tb3_ws/install/turtlebot3_gazebo/include//turtlebot3_gazebo/obstacles.hpp
+[18.469s] -- Symlinking: /home/tedee/tb3_ws/install/turtlebot3_gazebo/include//turtlebot3_gazebo/traffic_bar_plugin.hpp
+[18.476s] -- Symlinking: /home/tedee/tb3_ws/install/turtlebot3_gazebo/include//turtlebot3_gazebo/traffic_light_plugin.hpp
+[18.484s] -- Symlinking: /home/tedee/tb3_ws/install/turtlebot3_gazebo/include//turtlebot3_gazebo/turtlebot3_drive.hpp
+[18.490s] -- Symlinking: /home/tedee/tb3_ws/install/turtlebot3_gazebo/share/ament_index/resource_index/package_run_dependencies/turtlebot3_gazebo
+[18.496s] -- Symlinking: /home/tedee/tb3_ws/install/turtlebot3_gazebo/share/ament_index/resource_index/parent_prefix_path/turtlebot3_gazebo
+[18.502s] -- Symlinking: /home/tedee/tb3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/environment/ament_prefix_path.sh
+[18.508s] -- Symlinking: /home/tedee/tb3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/environment/ament_prefix_path.dsv
+[18.514s] -- Symlinking: /home/tedee/tb3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/environment/path.sh
+[18.521s] -- Symlinking: /home/tedee/tb3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/environment/path.dsv
+[18.527s] -- Symlinking: /home/tedee/tb3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/local_setup.bash
+[18.535s] -- Symlinking: /home/tedee/tb3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/local_setup.sh
+[18.541s] -- Symlinking: /home/tedee/tb3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/local_setup.zsh
+[18.548s] -- Symlinking: /home/tedee/tb3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/local_setup.dsv
+[18.554s] -- Symlinking: /home/tedee/tb3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.dsv
+[18.561s] -- Symlinking: /home/tedee/tb3_ws/install/turtlebot3_gazebo/share/ament_index/resource_index/packages/turtlebot3_gazebo
+[18.567s] -- Symlinking: /home/tedee/tb3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/cmake/ament_cmake_export_include_directories-extras.cmake
+[18.574s] -- Symlinking: /home/tedee/tb3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/cmake/ament_cmake_export_dependencies-extras.cmake
+[18.581s] -- Symlinking: /home/tedee/tb3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/cmake/turtlebot3_gazeboConfig.cmake
+[18.589s] -- Symlinking: /home/tedee/tb3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/cmake/turtlebot3_gazeboConfig-version.cmake
+[18.597s] -- Symlinking: /home/tedee/tb3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.xml
+[18.605s] Invoked command in '/home/tedee/tb3_ws/build/turtlebot3_gazebo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/tedee/tb3_ws/build/turtlebot3_gazebo

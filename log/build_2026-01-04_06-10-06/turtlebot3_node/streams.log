@@ -1,0 +1,87 @@
+[0.019s] Invoking command in '/home/tedee/tb3_ws/build/turtlebot3_node': AMENT_PREFIX_PATH=/home/tedee/tb3_ws/install/turtlebot3_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tedee/tb3_ws/install/turtlebot3_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/tedee/tb3_ws/install/turtlebot3_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/tedee/tb3_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/tedee/tb3_ws/src/turtlebot3/turtlebot3_node -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/tedee/tb3_ws/install/turtlebot3_node
+[0.341s] -- The C compiler identification is GNU 11.4.0
+[0.342s] -- The CXX compiler identification is GNU 11.4.0
+[0.342s] -- Detecting C compiler ABI info
+[0.342s] -- Detecting C compiler ABI info - done
+[0.342s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.342s] -- Detecting C compile features
+[0.342s] -- Detecting C compile features - done
+[0.342s] -- Detecting CXX compiler ABI info
+[0.342s] -- Detecting CXX compiler ABI info - done
+[0.346s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.346s] -- Detecting CXX compile features
+[0.346s] -- Detecting CXX compile features - done
+[0.348s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.514s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.574s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.613s] -- Found dynamixel_sdk: 3.8.4 (/opt/ros/humble/share/dynamixel_sdk/cmake)
+[0.618s] -- Found geometry_msgs: 4.8.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.657s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.661s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.669s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.680s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.700s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.757s] -- Found message_filters: 4.3.7 (/opt/ros/humble/share/message_filters/cmake)
+[0.816s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.820s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.926s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.958s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.009s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.020s] -- Looking for pthread.h
+[1.106s] -- Looking for pthread.h - found
+[1.106s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.179s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.180s] -- Found Threads: TRUE  
+[1.234s] -- Found nav_msgs: 4.8.0 (/opt/ros/humble/share/nav_msgs/cmake)
+[1.259s] -- Found sensor_msgs: 4.8.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.285s] -- Found std_srvs: 4.8.0 (/opt/ros/humble/share/std_srvs/cmake)
+[1.307s] -- Found tf2: 0.25.12 (/opt/ros/humble/share/tf2/cmake)
+[1.324s] -- Found tf2_ros: 0.25.12 (/opt/ros/humble/share/tf2_ros/cmake)
+[1.471s] -- Found turtlebot3_msgs: 2.4.0 (/home/tedee/tb3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake)
+[1.583s] -- Configuring done
+[1.608s] -- Generating done
+[1.616s] -- Build files have been written to: /home/tedee/tb3_ws/build/turtlebot3_node
+[1.629s] Invoked command in '/home/tedee/tb3_ws/build/turtlebot3_node' returned '0': AMENT_PREFIX_PATH=/home/tedee/tb3_ws/install/turtlebot3_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tedee/tb3_ws/install/turtlebot3_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/tedee/tb3_ws/install/turtlebot3_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/tedee/tb3_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/tedee/tb3_ws/src/turtlebot3/turtlebot3_node -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/tedee/tb3_ws/install/turtlebot3_node
+[1.631s] Invoking command in '/home/tedee/tb3_ws/build/turtlebot3_node': AMENT_PREFIX_PATH=/home/tedee/tb3_ws/install/turtlebot3_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tedee/tb3_ws/install/turtlebot3_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/tedee/tb3_ws/install/turtlebot3_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/tedee/tb3_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/tedee/tb3_ws/build/turtlebot3_node -- -j20 -l20
+[1.683s] [  7%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/devices/reset.cpp.o[0m
+[1.684s] [ 14%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/odometry.cpp.o[0m
+[1.685s] [ 21%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/devices/sound.cpp.o[0m
+[1.685s] [ 28%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/devices/motor_power.cpp.o[0m
+[1.685s] [ 42%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/dynamixel_sdk_wrapper.cpp.o[0m
+[1.685s] [ 42%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/diff_drive_controller.cpp.o[0m
+[1.685s] [ 50%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/turtlebot3.cpp.o[0m
+[1.685s] [ 57%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/sensors/battery_state.cpp.o[0m
+[1.686s] [ 71%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/sensors/joint_state.cpp.o[0m
+[1.686s] [ 71%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/sensors/sensor_state.cpp.o[0m
+[1.686s] [ 78%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/sensors/imu.cpp.o[0m
+[14.683s] [ 85%] [32m[1mLinking CXX static library libturtlebot3_node_lib.a[0m
+[15.534s] [ 85%] Built target turtlebot3_node_lib
+[15.548s] [ 92%] [32mBuilding CXX object CMakeFiles/turtlebot3_ros.dir/src/node_main.cpp.o[0m
+[17.289s] [100%] [32m[1mLinking CXX executable turtlebot3_ros[0m
+[18.292s] [100%] Built target turtlebot3_ros
+[18.301s] Invoked command in '/home/tedee/tb3_ws/build/turtlebot3_node' returned '0': AMENT_PREFIX_PATH=/home/tedee/tb3_ws/install/turtlebot3_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tedee/tb3_ws/install/turtlebot3_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/tedee/tb3_ws/install/turtlebot3_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/tedee/tb3_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/tedee/tb3_ws/build/turtlebot3_node -- -j20 -l20
+[18.301s] Invoking command in '/home/tedee/tb3_ws/build/turtlebot3_node': AMENT_PREFIX_PATH=/home/tedee/tb3_ws/install/turtlebot3_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tedee/tb3_ws/install/turtlebot3_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/tedee/tb3_ws/install/turtlebot3_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/tedee/tb3_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/tedee/tb3_ws/build/turtlebot3_node
+[18.306s] -- Install configuration: ""
+[18.306s] -- Execute custom install script
+[18.306s] -- Symlinking: /home/tedee/tb3_ws/install/turtlebot3_node/share/turtlebot3_node/param/burger.yaml
+[18.314s] -- Symlinking: /home/tedee/tb3_ws/install/turtlebot3_node/share/turtlebot3_node/param/waffle.yaml
+[18.320s] -- Symlinking: /home/tedee/tb3_ws/install/turtlebot3_node/share/turtlebot3_node/param/waffle_pi.yaml
+[18.328s] -- Symlinking: /home/tedee/tb3_ws/install/turtlebot3_node/lib/turtlebot3_node/turtlebot3_ros
+[18.335s] -- Symlinking: /home/tedee/tb3_ws/install/turtlebot3_node/share/ament_index/resource_index/package_run_dependencies/turtlebot3_node
+[18.342s] -- Symlinking: /home/tedee/tb3_ws/install/turtlebot3_node/share/ament_index/resource_index/parent_prefix_path/turtlebot3_node
+[18.347s] -- Symlinking: /home/tedee/tb3_ws/install/turtlebot3_node/share/turtlebot3_node/environment/ament_prefix_path.sh
+[18.353s] -- Symlinking: /home/tedee/tb3_ws/install/turtlebot3_node/share/turtlebot3_node/environment/ament_prefix_path.dsv
+[18.360s] -- Symlinking: /home/tedee/tb3_ws/install/turtlebot3_node/share/turtlebot3_node/environment/path.sh
+[18.365s] -- Symlinking: /home/tedee/tb3_ws/install/turtlebot3_node/share/turtlebot3_node/environment/path.dsv
+[18.372s] -- Symlinking: /home/tedee/tb3_ws/install/turtlebot3_node/share/turtlebot3_node/local_setup.bash
+[18.377s] -- Symlinking: /home/tedee/tb3_ws/install/turtlebot3_node/share/turtlebot3_node/local_setup.sh
+[18.382s] -- Symlinking: /home/tedee/tb3_ws/install/turtlebot3_node/share/turtlebot3_node/local_setup.zsh
+[18.387s] -- Symlinking: /home/tedee/tb3_ws/install/turtlebot3_node/share/turtlebot3_node/local_setup.dsv
+[18.392s] -- Symlinking: /home/tedee/tb3_ws/install/turtlebot3_node/share/turtlebot3_node/package.dsv
+[18.396s] -- Symlinking: /home/tedee/tb3_ws/install/turtlebot3_node/share/ament_index/resource_index/packages/turtlebot3_node
+[18.401s] -- Symlinking: /home/tedee/tb3_ws/install/turtlebot3_node/share/turtlebot3_node/cmake/ament_cmake_export_dependencies-extras.cmake
+[18.406s] -- Symlinking: /home/tedee/tb3_ws/install/turtlebot3_node/share/turtlebot3_node/cmake/ament_cmake_export_include_directories-extras.cmake
+[18.411s] -- Symlinking: /home/tedee/tb3_ws/install/turtlebot3_node/share/turtlebot3_node/cmake/turtlebot3_nodeConfig.cmake
+[18.416s] -- Symlinking: /home/tedee/tb3_ws/install/turtlebot3_node/share/turtlebot3_node/cmake/turtlebot3_nodeConfig-version.cmake
+[18.422s] -- Symlinking: /home/tedee/tb3_ws/install/turtlebot3_node/share/turtlebot3_node/package.xml
+[18.429s] Invoked command in '/home/tedee/tb3_ws/build/turtlebot3_node' returned '0': AMENT_PREFIX_PATH=/home/tedee/tb3_ws/install/turtlebot3_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tedee/tb3_ws/install/turtlebot3_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/tedee/tb3_ws/install/turtlebot3_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/tedee/tb3_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/tedee/tb3_ws/build/turtlebot3_node
