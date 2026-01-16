@@ -1,0 +1,23 @@
+running egg_info
+writing ../../build/tb3_fsm_patrol/tb3_fsm_patrol.egg-info/PKG-INFO
+writing dependency_links to ../../build/tb3_fsm_patrol/tb3_fsm_patrol.egg-info/dependency_links.txt
+writing entry points to ../../build/tb3_fsm_patrol/tb3_fsm_patrol.egg-info/entry_points.txt
+writing requirements to ../../build/tb3_fsm_patrol/tb3_fsm_patrol.egg-info/requires.txt
+writing top-level names to ../../build/tb3_fsm_patrol/tb3_fsm_patrol.egg-info/top_level.txt
+reading manifest file '../../build/tb3_fsm_patrol/tb3_fsm_patrol.egg-info/SOURCES.txt'
+writing manifest file '../../build/tb3_fsm_patrol/tb3_fsm_patrol.egg-info/SOURCES.txt'
+running build
+running build_py
+copying tb3_fsm_patrol/pose_monitor.py -> /home/tedee/tb3_ws/build/tb3_fsm_patrol/build/lib/tb3_fsm_patrol
+running install
+running install_lib
+copying /home/tedee/tb3_ws/build/tb3_fsm_patrol/build/lib/tb3_fsm_patrol/pose_monitor.py -> /home/tedee/tb3_ws/install/tb3_fsm_patrol/lib/python3.10/site-packages/tb3_fsm_patrol
+byte-compiling /home/tedee/tb3_ws/install/tb3_fsm_patrol/lib/python3.10/site-packages/tb3_fsm_patrol/pose_monitor.py to pose_monitor.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/home/tedee/tb3_ws/install/tb3_fsm_patrol/lib/python3.10/site-packages/tb3_fsm_patrol-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/tb3_fsm_patrol/tb3_fsm_patrol.egg-info to /home/tedee/tb3_ws/install/tb3_fsm_patrol/lib/python3.10/site-packages/tb3_fsm_patrol-0.0.0-py3.10.egg-info
+running install_scripts
+Installing fsm_patrol script to /home/tedee/tb3_ws/install/tb3_fsm_patrol/lib/tb3_fsm_patrol
+Installing pose_monitor script to /home/tedee/tb3_ws/install/tb3_fsm_patrol/lib/tb3_fsm_patrol
+writing list of installed files to '/home/tedee/tb3_ws/build/tb3_fsm_patrol/install.log'

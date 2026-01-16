@@ -4,6 +4,64 @@ Project ini mengimplementasikan **Finite State Machine (FSM)** untuk navigasi se
 
 ---
 
+# TB3 ROS2 FSM Waypoint Patrol (Gazebo)
+
+## Nama Tim
+- ### Septedy Indrajannah (4222211006)
+- ### Fiky Hidayatullah (4222201023)
+- ### Antonius Heri Natanael (4222201059)
+
+Project ini mengimplementasikan **Finite State Machine (FSM)** untuk navigasi sederhana TurtleBot3: robot berpindah-pindah **waypoint**, dan melakukan **obstacle avoidance** berbasis aksi “belok lalu maju” menggunakan timer.
+
+---
+
+## Screenshot Hasil Run (Demo)
+
+**1) Gazebo saat robot patrol + avoid obstacle**
+<img width="1850" height="1053" alt="Image" src="https://github.com/user-attachments/assets/db092091-f059-4d13-823a-22b1f678785b" />
+
+**2) Terminal node FSM berjalan**
+<img width="1272" height="533" alt="Image" src="https://github.com/user-attachments/assets/50e924db-5042-49ce-b3ea-e7d21273511c" />
+
+---
+
+## Quick Start (Step-by-step Menjalankan)
+
+### 0) Prasyarat
+- Ubuntu 22.04 + **ROS 2 Humble**
+- Paket TurtleBot3 + Gazebo simulation sudah terpasang
+
+> Panduan resmi menjalankan TurtleBot3 Gazebo world (ROS2): `ros2 launch turtlebot3_gazebo ...` (lihat referensi di bagian bawah).  
+
+---
+
+### 1) Clone Repo (Workspace)
+Disarankan clone sebagai **workspace root** (karena repo ini sudah punya folder `src/`, dan bisa saja ada `build/ install/ log/`).
+
+```
+cd ~
+git clone https://github.com/tedee09/tb3-ros2-fsm-waypoint-patrol-gazebo.git tb3_ws
+cd ~/tb3_ws
+```
+
+### 2) Build (colcon)
+```
+cd ~/tb3_ws
+colcon build
+source install/setup.bash
+```
+
+### 3) Jalankan Gazebo TurtleBot3
+```
+ros2 launch tb3_fsm_patrol tb3_world_fsm.launch.py
+```
+
+Jika Gazebo sudah pernah jalan dan tiba-tiba error (port / server nyangkut), bisa ditutup semua dulu:
+```
+pkill -f gzserver || true
+pkill -f gzclient || true
+```
+
 ## Konsep FSM
 
 FSM memodelkan perilaku robot sebagai kumpulan **state** (mode kerja).  

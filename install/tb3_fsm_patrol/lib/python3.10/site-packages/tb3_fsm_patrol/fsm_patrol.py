@@ -239,7 +239,7 @@ class FSMPatrol(Node):
         if self.state == State.ARRIVED:
             self.publish_cmd(0.0, 0.0)
             self.wp_idx = (self.wp_idx + 1) % len(self.waypoints)
-            self.get_logger().info(f"SAMPE -> next goal {self.wp_idx}: {self.cur_goal()}")
+            self.get_logger().info(f"SAMPE -> lanjut ke waypoint {self.wp_idx}: {self.cur_goal()}")
             self.set_state(State.ROTATE_TO_WP)
             return
 
